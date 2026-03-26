@@ -3,7 +3,7 @@ name: CI/CD Docker
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-push:
