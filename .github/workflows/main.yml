@@ -28,6 +28,6 @@ jobs:
           context: .
           push: true
           tags: |
-            phanvanthan/PhanVanThan10:latest
-            phanvanthan/PhanVanThan10:${{ github.sha }}
+            phanvanthan/phanvanthan10:latest
+            phanvanthan/phanvanthan10:${{ github.sha }}
 
