@@ -25,8 +25,8 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: ./phanvanthan10
-          file: ./phanvanthan10/Dockerfile
+          context: ./PhanVanThan10
+          file: ./PhanVanThan10/Dockerfile
           push: true
           tags: |
             phanvanthan/phanvanthan10:latest
